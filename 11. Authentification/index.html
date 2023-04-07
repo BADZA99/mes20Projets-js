@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Authentification</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div class="cont-btns">
+        <button class="btn-inscription">S'inscrire</button>
+        <button class="btn-connection">Se connecter</button>
+        <button class="btn-deco">Se déconnecter</button>
+    </div>
+    <h1>Bienvenue, inscrivez-vous ou connectez-vous.</h1>
+    <p class="info">Contenu public.</p>
+
+    <form class="form-inscription">
+
+        <h2>Inscription</h2>
+        <label for="emailInscription">Entrez un email</label>
+        <input type="email" class="email-inscription" id="emailInscription">
+
+        <label for="mdpInscription">Entrez un mdp</label>
+        <input type="password" class="mdp-inscription" id="mdpInscription">
+
+        <button type="submit">S'inscrire</button>
+    </form>
+    
+    <form class="form-connection">
+
+        <h2>Connection</h2>
+        <label for="emailConnection">Entrez un email</label>
+        <input type="email" class="email-connection" id="emailConnection">
+
+        <label for="mdpConnection">Entrez un mdp</label>
+        <input type="password" class="mdp-connection" id="mdpConnection">
+
+        <button type="submit">Se connecter</button>
+    </form>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/7.20.0/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.20.0/firebase-auth.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.20.0/firebase-firestore.js"></script>
+
+    <!-- TODO: Add SDKs for Firebase products that you want to use
+        https://firebase.google.com/docs/web/setup#available-libraries -->
+
+<script>
+
+  // Your web app's Firebase configuration
+  // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+  const firebaseConfig = {
+    apiKey: "AIzaSyCg3ZWw8GRdkIDM9bDIHuPJ03rVAkmC90o",
+    authDomain: "authentification-js-d343d.firebaseapp.com",
+    projectId: "authentification-js-d343d",
+    storageBucket: "authentification-js-d343d.appspot.com",
+    messagingSenderId: "1079615503620",
+    appId: "1:1079615503620:web:11a7bc32fc090acf8a6451",
+    measurementId: "G-2TYY5J7HHC"
+  };
+
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+  const auth = firebase.auth();
+  const db = firebase.firestore();
+
+
+</script>
+<script src="app.js"></script>
+</body>
+</html>

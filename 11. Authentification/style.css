@@ -1,0 +1,48 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.cont-btns {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+button {
+    padding: 12px;
+    font-size: 25px;
+}
+h1 {
+    margin-top: 100px;
+    text-align: center;
+    font-size: 40px;
+}
+.info {
+    font-size: 30px;
+    text-align: center;
+}
+.form-inscription, .form-connection {
+    width: 300px;
+    height: 300px;
+    background: #333;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #f1f1f1;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+label {
+    font-size: 20px;
+}
+input {
+    width: 80%;
+    padding: 10px;
+    margin: 10px;
+}
+.apparition {
+    display: flex;
+}
